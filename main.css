@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D4AF37;
+    font-family: "Orbitron", sans-serif; 
+}
+
+.header{
+    background-color: #ffffff;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__container li{
+    display: inline;
+    list-style: none;
+    padding: 8px;
+    font-size: 20px;
+}
+
+h1{
+    color: #003366;
+}
+
+a{
+    text-decoration: none;
+    color: #003366;
+}
+
+.sinopse{
+    padding-top: 70PX;
+}
+
+.sinopse__container{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    color: #003366;
+    font-size: 24px;
+}
+
+.doutor{
+    width: 100%;
+    display: flex;
+    height: 750PX;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70PX;
+}
+
+.doutor h2{
+    font-size: 24px;
+    color:  #003366;
+}
+
+.botao{
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #003366;
+    border: none;
+    cursor: pointer;
+}
+
+.doutor__lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doutor__imagens{
+    list-style: none;
+    padding-bottom: 25px;
+    display: none;
+}
+
+
+.doutor__imagens h3{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #003366;
+}
+
+img{
+    height: 468px;
+}
+
