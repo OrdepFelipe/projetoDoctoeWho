@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="dist/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
@@ -15,95 +15,155 @@
 <div class="header__container">
     <h1>Doctor Who</h1>
     <ul>
-      <li>
-        <a href="">Sinopse</a>
+      <li class="titulo--medio">
+        <a href="#sinopse">Sinopse</a>
       </li>
-      <li>
-        <a href="">Curiosidades</a>
+      <li class="titulo--medio">
+        <a href="#personagem">Personagens</a>
       </li>
-      <li>
-        <a href="">Episódios Marcantes</a>
-      </li>
-      <li>
-        <a href="">Qual doutor você é?</a>
+      <li class="titulo--medio">
+        <a href="#app">Qual doutor você é?</a>
       </li>
     </ul>
 </div>
   </header>
   <main>
-    <section class="sinopse">
+    <section class="sinopse" id="sinopse">
       <div class="sinopse__container">
-        <p>
+        <p class="texto">
           Embarque em uma jornada épica através do tempo e espaço com "Doctor Who". Este conto fascinante segue o Doutor, um viajante do tempo com uma nave peculiar, o TARDIS. Ao lado de seus corajosos companheiros, o Doutor enfrenta ameaças intergalácticas, desvenda mistérios cósmicos e desafia o próprio tecido da realidade. Prepare-se para uma experiência única, onde cada episódio é uma aventura emocionante e imprevisível. O universo aguarda a sua descoberta – você está pronto para viajar com o Doutor!
         </p>
       </div>
     </section>
-    <section>
+</section>
+<section class="personagens" id="personagem">
+  <ul class="personagens-lista">
+    <li class="personagem">
+        <h2 class="personagem__nome titulo--medio">O Doutor (The Doctor)</h2>
+        <p class="personagem__descricao">
+            <strong class="personagem__descricao-titulo">Descrição:</strong> O protagonista da série, conhecido apenas como "O Doutor". É um Senhor do Tempo, uma raça alienígena avançada, e viaja na sua nave espacial chamada TARDIS, que se assemelha a uma cabine telefônica azul.
+        </p>
+        <p class="personagem__descricao">
+            <strong class="personagem__descricao-titulo">Características:</strong> O Doutor tem a habilidade de se regenerar, o que permite que diferentes atores interpretem o papel ao longo dos anos. Cada encarnação tem sua própria personalidade única.
+        </p>
+    </li>
+
+    <li class="personagem">
+        <h2 class="personagem__nome titulo--medio">Companheiros do Doutor</h2>
+        <p class="personagem__descricao">
+            <strong class="personagem__descricao-titulo">Descrição:</strong> Ao longo das temporadas, o Doutor é acompanhado por diferentes personagens humanos e não humanos, conhecidos como "companheiros". Eles viajam na TARDIS e auxiliam o Doutor em suas aventuras.
+        </p>
+        <p class="personagem__descricao">
+            <strong class="personagem__descricao-titulo">Exemplos:</strong> Rose Tyler, Martha Jones, Donna Noble, Amy Pond, Rory Williams, Clara Oswald, Bill Potts.
+        </p>
+    </li>
+
+    <li class="personagem">
+        <h2 class="personagem__nome titulo--medio">Mestra (The Master)</h2>
+        <p class="personagem__descricao">
+            <strong class="personagem__descricao-titulo">Descrição:</strong> Um dos principais antagonistas do Doutor, a Mestra é uma Senhora do Tempo, e também possui a habilidade de se regenerar. Ela muitas vezes assume uma postura antagônica em relação ao Doutor, mas há uma complexa relação entre os dois.
+        </p>
+        <p class="personagem__descricao">
+            <strong class="personagem__descricao-titulo">Características:</strong> Inteligente, manipuladora e muitas vezes imprevisível.
+        </p>
+    </li>
+    <li class="personagem">
+      <h2 class="personagem__nome titulo--medio">Daleks</h2>
+      <p class="personagem__descricao">
+          <strong class="personagem__descricao-titulo">Descrição:</strong> Uma raça de alienígenas geneticamente modificados e militarizados, conhecidos por seus exoesqueletos metálicos e vozes distintas. Eles são inimigos recorrentes do Doutor.
+      </p>
+      <p class="personagem__descricao">
+          <strong class="personagem__descricao-titulo">Características:</strong>  Movidos pelo desejo de conquista e exterminação de outras raças.
+      </p>
+  </li>
+  <li class="personagem">
+    <h2 class="personagem__nome titulo--medio">River Song</h2>
+    <p class="personagem__descricao">
+        <strong class="personagem__descricao-titulo">Descrição:</strong> Arqueóloga com uma história complicada com o Doutor. Sua linha do tempo é apresentada de maneira não linear, o que adiciona um toque intrigante à sua relação com o Doutor.
+    </p>
+</li>
+<li class="personagem">
+  <h2 class="personagem__nome titulo--medio">Capitão Jack Harkness</h2>
+  <p class="personagem__descricao">
+      <strong class="personagem__descricao-titulo">Descrição:</strong> Um ex-militar do século 51 que torna-se imortal após um encontro com o Doutor. Ele se torna um aliado do Doutor e também lidera a Torchwood, uma organização dedicada a lidar com ameaças alienígenas na Terra.
+  </p>
+</li>
+  </ul>
+  <p class="texto--menor">
+    Este é apenas um guia básico, e "Doctor Who" tem uma vasta galeria de personagens secundários e recorrentes que contribuem para a riqueza e complexidade da série. Que é conhecida por sua habilidade de reinventar-se ao longo do tempo
+  </p>
+</section>
+    <section id="app">
       <div class="doutor">
-        <h2>Descubra qual doutor você é!</h2>
+        <h2 class="titulo--medio">Descubra qual doutor você é!</h2>
         <button class="botao">Descubra agora!</button>
           <ul class="doutor__lista">
             <li class="doutor__imagens doutor__imagens--block">
-              <h3>Você é o Primeiro Doutor</h3>
-              <img src="imagens/primeiro.png" alt="Imagem Primeito Doctor">
+              <h3 class="titulo--pequeno">Você é o Primeiro Doutor</h3>
+              <img src="src/imagens/primeiro.png" alt="Imagem Primeito Doctor">
             </li>
             <li class="doutor__imagens doutor__imagens--block">
-              <h3>Você é o Segundo Doutor</h3>
-              <img src="imagens/segundo.png" alt="Imagem Segundo Doctor">
+              <h3 class="titulo--pequeno">Você é o Segundo Doutor</h3>
+              <img src="src/imagens/segundo.png" alt="Imagem Segundo Doctor">
             </li>
             <li class="doutor__imagens doutor__imagens--block">
-              <h3>Você é o Terceiro Doutor</h3>
-              <img src="imagens/terceiro.png" alt="Imagem Terceiro Doctor">
+              <h3 class="titulo--pequeno">Você é o Terceiro Doutor</h3>
+              <img src="src/imagens/terceiro.png" alt="Imagem Primeito Doctor">
             </li>
             <li class="doutor__imagens doutor__imagens--block">
-              <h3>Você é o Quarto Doutor</h3>
-              <img src="imagens/quarto.png" alt="Imagem Quarto Doctor">
+              <h3 class="titulo--pequeno">Você é o Quarto Doutor</h3>
+              <img src="src/imagens/quarto.png" alt="Imagem Quarto Doctor">
             </li>
             <li class="doutor__imagens doutor__imagens--block">
-              <h3>Você é o Quinto Doutor</h3>
-              <img src="imagens/quinto.png" alt="Imagem Quinto Doctor">
+              <h3 class="titulo--pequeno">Você é o Quinto Doutor</h3>
+              <img src="src/imagens/quinto.png" alt="Imagem Quinto Doctor">
             </li>
             <li class="doutor__imagens doutor__imagens--block">
-              <h3>Você é o Sexto Doutor</h3>
-              <img src="imagens/sexto.png" alt="Imagem Sexto Doctor">
+              <h3 class="titulo--pequeno">Você é o Sexto Doutor</h3>
+              <img src="src/imagens/sexto.png" alt="Imagem Sexto Doctor">
             </li>
             <li class="doutor__imagens doutor__imagens--block">
-              <h3>Você é o Sétimo Doutor</h3>
-              <img src="imagens/setimo.png" alt="Imagem Setimo Doctor">
+              <h3 class="titulo--pequeno">Você é o Sétimo Doutor</h3>
+              <img src="src/imagens/setimo.png" alt="Imagem Setimo Doctor">
             </li>
             <li class="doutor__imagens doutor__imagens--block">
-              <h3>Você é o Oitavo Doutor</h3>
-              <img src="imagens/oitavo.png" alt="Imagem Oitavo Doctor">
+              <h3 class="titulo--pequeno">Você é o Oitavo Doutor</h3>
+              <img src="src/imagens/oitavo.png" alt="Imagem Primeito Doctor">
             </li>
             <li class="doutor__imagens doutor__imagens--block">
-              <h3>Você é o Nono Doutor</h3>
-              <img src="imagens/nono.png" alt="Imagem Nono Doctor">
+              <h3 class="titulo--pequeno">Você é o Nono Doutor</h3>
+              <img src="src/imagens/nono.png" alt="Imagem Nono Doctor">
             </li>
             <li class="doutor__imagens doutor__imagens--block">
-              <h3>Você é o Décimo Doutor</h3>
-              <img src="imagens/decimo.png" alt="Imagem Décimo Doctor">
+              <h3 class="titulo--pequeno">Você é o Décimo Doutor</h3>
+              <img src="src/imagens/decimo.png" alt="Imagem Décimo Doctor">
             </li>
             <li class="doutor__imagens doutor__imagens--block">
-              <h3>Você é o Décimo Primeiro Doutor</h3>
-              <img src="imagens/decimoPrimeiro.png" alt="Imagem Décimo Primeiro Doctor">
+              <h3 class="titulo--pequeno">Você é o Décimo Primeiro Doutor</h3>
+              <img src="src/imagens/decimoPrimeiro.png" alt="Imagem Décimo Primeiro Doctor">
             </li>
             <li class="doutor__imagens doutor__imagens--block">
-              <h3>Você é o Décimo Segundo Doutor</h3>
-              <img src="imagens/decimoSegundo.png" alt="Imagem Décimo Segundo Doctor">
+              <h3 class="titulo--pequeno">Você é o Décimo Segundo Doutor</h3>
+              <img src="src/imagens/decimoSegundo.png" alt="Imagem Décimo Segundo Doctor">
             </li>
             <li class="doutor__imagens doutor__imagens--block">
-              <h3>Você é a Décima Terceira Doutora </h3>
-              <img src="imagens/decimaTerceira.png" alt="Imagem Décimo Terceiro Doctor">
+              <h3 class="titulo--pequeno">Você é a Décima Terceira Doutora </h3>
+              <img src="src/imagens/decimaTerceira.png" alt="Imagem Décimo Terceiro Doctor">
             </li>
             <li class="doutor__imagens doutor__imagens--block">
-              <h3>Você é o Décimo Quinto Doutor</h3>
-              <img src="imagens/decimoQuinto.png" alt="Imagem Décimo Quinto Doctor">
+              <h3 class="titulo--pequeno">Você é o Décimo Quinto Doutor</h3>
+              <img src="src/imagens/decimoQuinto.png" alt="Imagem Décimo Quinto Doctor">
             </li>
           </ul>
         </div>
     </section>
     </main>
-
-      <script src="main.js"></script>
+    <footer class="footer">
+      <p class="texto--menor">
+        Site desenvolvido por um fã
+      </p>
+    </footer>
+    <script src="src/scripts/carousel.js"></script>
+      <script src="src/scripts/main.js"></script>
 </body>
 </html>

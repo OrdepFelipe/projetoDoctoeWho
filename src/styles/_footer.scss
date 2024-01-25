@@ -1,0 +1,7 @@
+@use 'variaveis';
+
+.footer{
+    background-color: variaveis.$corDeFundoHeader;
+    text-align: center;
+    margin-top: 40px;
+}

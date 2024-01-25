@@ -1,0 +1,47 @@
+@use 'variaveis';
+@use 'header';
+@use 'sinopse';
+@use 'app';
+@use 'personagem';
+@use 'footer';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: variaveis.$corDeFundo;
+    font-family: "Orbitron", sans-serif; 
+}
+
+@mixin titulo($font-size:28px){
+    font-size: $font-size;
+    color: variaveis.$corTitulo;
+}
+
+@mixin texto($font-size:24px){
+    font-size: $font-size;
+    color: variaveis.$corDoTexto;
+}
+
+.titulo--grande{
+    @include titulo(36px)
+}
+
+.titulo--medio{
+    @include titulo(24px)
+}
+
+.titulo--pequeno{
+    @include titulo(16px)
+}
+
+.texto{
+    @include texto(24px)
+}
+
+.texto--menor{
+    @include texto(16px)
+}

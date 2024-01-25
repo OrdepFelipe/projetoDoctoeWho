@@ -1,0 +1,29 @@
+@use 'variaveis';
+
+.personagens{
+    margin-top: 70px;
+
+    .texto--menor{
+        margin-top: 70px;
+    }
+}
+
+.personagens-lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    border-radius: 4px;
+
+    .personagem{
+        list-style: none;
+
+        &__nome{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        &__descricao{
+            margin-left: 10px;
+        }
+    }
+}
